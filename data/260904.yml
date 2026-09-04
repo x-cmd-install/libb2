@@ -7,7 +7,7 @@ about:
   head: 643decf
   archived: false
   latestVersion: v0.98.1
-  collectedAt: 2026-09-04T19:58:08Z
+  collectedAt: 2026-09-04T20:41:58Z
 timeline:
   created: 2015-10-14
   lastCommit: 2023-05-14
@@ -83,5 +83,48 @@ total:
   openIssue: 16
   commit: 53
 ---
+path: /home/runner/.x-repo/github.com/BLAKE2/libb2
+collectedAt: 2026-09-04T20:41:58Z
+loc:
+  CHeader:
+    code: 17612
+    comments: 151
+    blanks: 318
+    files: 11
+  M4:
+    code: 7047
+    comments: 1742
+    blanks: 757
+    files: 10
+  C:
+    code: 2251
+    comments: 179
+    blanks: 501
+    files: 11
+  Automake:
+    code: 116
+    comments: 10
+    blanks: 33
+    files: 2
+  Sh:
+    code: 13
+    comments: 2
+    blanks: 2
+    files: 2
+  Autoconf:
+    code: 11
+    comments: 0
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 10
+    blanks: 4
+    files: 1
+total:
+  code: 27050
+  comments: 2094
+  blanks: 1616
+  files: 38
 ---
 
