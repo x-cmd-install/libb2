@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 534928,
       "digest": null,
-      "download_count": 276062,
+      "download_count": 276304,
       "created_at": "2019-03-10T15:39:00Z",
       "updated_at": "2019-03-10T15:39:02Z",
       "browser_download_url": "https://github.com/BLAKE2/libb2/releases/download/v0.98.1/libb2-0.98.1.tar.gz"
