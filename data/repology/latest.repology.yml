@@ -1,0 +1,1801 @@
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: libb2
+  binnames:
+    - libb2-1
+    - libb2-dev
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - libs
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: libb2
+  binnames:
+    - libb2-1
+    - libb2-dev
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - libs
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: libb2
+  binnames:
+    - libb2-1
+    - libb2-dev
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - libs
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: pld
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-2
+  status: newest
+- repo: aerynos
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 library implementation
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r2
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r2
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r2
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r2
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: libb2
+  binname: libb2-dev
+  visiblename: libb2-dev
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+  maintainers:
+    - bribbers@disroot.org
+  licenses:
+    - CC0-1.0
+- repo: alt_p11
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-debuginfo
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-alt1_1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - viy@altlinux.ru
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: altsisyphus
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-debuginfo
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-alt1_1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - viy@altlinux.ru
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: aosc
+  srcname: runtime-cryptography/libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: A C library providing BLAKE2b, BLAKE2s, BLAKE2bp and BLAKE2sp hash functions
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - libs
+- repo: apertis_v2024
+  subrepo: v2024/development
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1+apertis0
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1+apertis0
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1+apertis1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1+apertis1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+- repo: arch
+  subrepo: extra
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: aur
+  srcname: lib32-libb2
+  binname: lib32-libb2
+  visiblename: lib32-libb2
+  version: 0.98.1
+  origversion: 0.98.1-4
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  maintainers:
+    - arzeth@aur
+  licenses:
+    - CC0-1.0
+- repo: aur
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-libb2
+  visiblename: mingw-w64-libb2
+  version: 0.98.1
+  origversion: 0.98.1-1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  maintainers:
+    - xantares@aur
+  licenses:
+    - custom:CC0
+- repo: aur
+  srcname: libb2-git
+  binname: libb2-git
+  visiblename: libb2-git
+  version: 0.98.1.r22.g643decf
+  origversion: 0.98.1.r22.g643decf-2
+  status: rolling
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - CC0-1.0
+- repo: artix
+  subrepo: world
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: main
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-r0
+  status: newest
+  summary: BLAKE2 hash library
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: main
+  srcname: libb2
+  binname: libb2-devel
+  visiblename: libb2-devel
+  version: 0.98.1
+  origversion: 0.98.1-r0
+  status: newest
+  summary: BLAKE2 hash library (development files)
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: main
+  srcname: libb2
+  binname: libb2-devel-static
+  visiblename: libb2-devel-static
+  version: 0.98.1
+  origversion: 0.98.1-r0
+  status: newest
+  summary: BLAKE2 hash library (development files) (static libraries)
+  licenses:
+    - CC0-1.0
+- repo: conancenter
+  srcname: libb2
+  visiblename: libb2
+  version: "20190723"
+  origversion: null
+  status: ignored
+- repo: crux_37
+  subrepo: opt
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: opt
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  maintainers:
+    - tbier@posteo.de
+- repo: cygwin
+  srcname: libb2
+  binname: libb2-devel
+  visiblename: libb2-devel
+  version: 0.98.1
+  origversion: 0.98.1-1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - daisuke.fujimura@cygwin
+  categories:
+    - Libs
+- repo: cygwin
+  srcname: libb2
+  binname: libb2_1
+  visiblename: libb2_1
+  version: 0.98.1
+  origversion: 0.98.1-1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - daisuke.fujimura@cygwin
+  categories:
+    - Libs
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+- repo: deepin_23
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - libs
+- repo: deepin_25
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - libs
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: epel_7
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-2.el7
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: epel_8
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-6.el8
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: epel_9
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-6.el9
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: exherbo
+  subrepo: arbor
+  srcname: app-crypt/libb2
+  visiblename: app-crypt/libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp and BLAKE2sp
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - app-crypt
+- repo: fedora_39
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-9.fc39
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-11.fc40
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-12.fc41
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-13.fc42
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-14.fc43
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-15.fc44
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-16.fc45
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0 OR Apache-1.0 OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: devel/libb2
+  binname: libb2
+  visiblename: devel/libb2
+  version: 0.98.1
+  origversion: 0.98.1_1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - mm@freebsd.org
+  categories:
+    - devel
+- repo: gentoo
+  srcname: app-crypt/libb2
+  visiblename: app-crypt/libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - grobian@gentoo.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - app-crypt
+- repo: gnuguix
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: Library implementing the BLAKE2 family of hash functions
+- repo: haikuports_master
+  srcname: app-crypt/libb2
+  visiblename: app-crypt/libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  categories:
+    - app-crypt
+- repo: homebrew
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: Secure hashing function
+- repo: kali_rolling
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: app-crypt/libb2
+  visiblename: app-crypt/libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - grobian@gentoo.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - app-crypt
+- repo: liguros_develop
+  srcname: app-crypt/libb2
+  visiblename: app-crypt/libb2
+  version: 0.98.1
+  origversion: 0.98.1-r3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - grobian@gentoo.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - app-crypt
+- repo: macports
+  srcname: devel/libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: a cryptographic hash function
+  maintainers:
+    - mcalhoun@macports
+    - marcuscalhoun-lopez@github
+  licenses:
+    - public-domain
+  categories:
+    - devel
+- repo: mageia_10
+  subrepo: core/release
+  srcname: libb2
+  binnames:
+    - lib64b2_1
+    - lib64b2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-5.mga10
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: mageia_9
+  subrepo: core/release
+  srcname: libb2
+  binnames:
+    - libb2_1
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-4.mga9
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: libb2
+  binnames:
+    - lib64b2_1
+    - lib64b2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-5.mga10
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: msys2_clang64
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-clang-x86_64-libb2
+  visiblename: mingw-w64-clang-x86_64-libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions (mingw-w64)
+  licenses:
+    - custom:CC0
+- repo: msys2_clangarm64
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-clang-aarch64-libb2
+  visiblename: mingw-w64-clang-aarch64-libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions (mingw-w64)
+  licenses:
+    - custom:CC0
+- repo: msys2_mingw
+  subrepo: x86_64
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-x86_64-libb2
+  visiblename: mingw-w64-x86_64-libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions (mingw-w64)
+  licenses:
+    - custom:CC0
+- repo: msys2_mingw
+  subrepo: i686
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-i686-libb2
+  visiblename: mingw-w64-i686-libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions (mingw-w64)
+  licenses:
+    - custom:CC0
+- repo: msys2_ucrt64
+  srcname: mingw-w64-libb2
+  binname: mingw-w64-ucrt-x86_64-libb2
+  visiblename: mingw-w64-ucrt-x86_64-libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions (mingw-w64)
+  licenses:
+    - custom:CC0
+- repo: nix_stable_24_05
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: The BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - rschuetz17@gmail.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_24_11
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - rschuetz17@gmail.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_25_05
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - rschuetz17@gmail.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_25_11
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - rschuetz17@gmail.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_26_05
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - nix@dotlambda.de
+  licenses:
+    - CC0-1.0
+- repo: nix_unstable
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 family of cryptographic hash functions
+  maintainers:
+    - dfoxfranke@gmail.com
+    - nix@dotlambda.de
+  licenses:
+    - CC0-1.0
+- repo: openbsd
+  srcname: security/libb2
+  binname: libb2
+  visiblename: security/libb2
+  version: 0.98.1
+  origversion: 0.98.1v0
+  status: newest
+  summary: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bket@openbsd.org
+  categories:
+    - security
+- repo: openeuler_24_03_lts
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.oe2403
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts_sp1
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.oe2403sp1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: openeuler_24_09
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.oe2409
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: openeuler_25_03
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.oe2503
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0
+  categories:
+    - Unspecified
+- repo: openmamba
+  subrepo: base
+  srcname: libb2
+  binnames:
+    - libb2
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-2mamba
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - silvan@openmamba.org
+  licenses:
+    - Common\ Public\ Attribution\ License\ 1.0
+  categories:
+    - System/Libraries
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: libb2
+  binnames:
+    - lib64b2_1
+    - lib64b2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-6
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: libb2
+  binnames:
+    - lib64b2_1
+    - lib64b2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-6
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: libb2
+  binnames:
+    - lib64b2_1
+    - lib64b2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-6
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: libb2
+  binnames:
+    - lib64b2
+    - lib64b2-devel
+    - libb2-debuginfo
+    - libb2-debugsource
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-7
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - CC0
+  categories:
+    - Development/C
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-150400.1.4
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Libraries/C and C++
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-150400.1.4
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Libraries/C and C++
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: libb2
+  binnames:
+    - libb2-debuginfo
+    - libb2-debugsource
+    - libb2-1
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-2.5
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Libraries/C and C++
+- repo: opensuse_security_tumbleweed
+  srcname: libb2
+  binnames:
+    - libb2-debuginfo
+    - libb2-debugsource
+    - libb2-1
+    - libb2-devel
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-8.10
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Libraries/C and C++
+- repo: parabola
+  subrepo: extra
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-3
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
+  licenses:
+    - CC0-1.0
+- repo: pardus_21
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1pclos2020
+  status: newest
+  summary: BLAKE2 family of hash functions
+  categories:
+    - Development/Libraries
+- repo: pisi_main
+  subrepo: main
+  srcname: programming/library/libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - admins@pisilinux.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - library
+- repo: pkgsrc_2026_1
+  srcname: security/libb2
+  binname: libb2
+  visiblename: security/libb2
+  version: 0.98.1
+  origversion: 0.98.1nb1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bsiegert@netbsd.org
+  categories:
+    - security
+- repo: pkgsrc_2026_2
+  srcname: security/libb2
+  binname: libb2
+  visiblename: security/libb2
+  version: 0.98.1
+  origversion: 0.98.1nb1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bsiegert@netbsd.org
+  categories:
+    - security
+- repo: pkgsrc_current
+  srcname: security/libb2
+  binname: libb2
+  visiblename: security/libb2
+  version: 0.98.1
+  origversion: 0.98.1nb1
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  maintainers:
+    - bsiegert@netbsd.org
+  categories:
+    - security
+- repo: ravenports
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: 'BLAKE2: fast secure hashing'
+  maintainers:
+    - fallback-mnt-ravenports@repology
+  categories:
+    - devel
+- repo: slackbuilds
+  srcname: development/libb2
+  visiblename: development/libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  maintainers:
+    - manuel.arguelles@gmail.com
+  categories:
+    - development
+- repo: solus
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: BLAKE2 library implementation
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - programming.library
+- repo: solus
+  srcname: libb2
+  binname: libb2-dbginfo
+  visiblename: libb2-dbginfo
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for libb2
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - debug
+- repo: solus
+  srcname: libb2
+  binname: libb2-devel
+  visiblename: libb2-devel
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: Development files for libb2
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - programming.devel
+- repo: stalix
+  srcname: lib/b2
+  binname: lib/b2
+  visiblename: lib/b2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: stalix_dev
+  srcname: lib/b2
+  binname: lib/b2
+  visiblename: lib/b2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: "0.97"
+  origversion: 0.97-2
+  status: outdated
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.97+git20171226
+  origversion: 0.97+git20171226-2
+  status: outdated
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build1
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build1
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build1
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: vcpkg
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1_1
+  status: newest
+  summary: BLAKE2 cryptographic hash function
+  maintainers:
+    - pierre.bourgin@free.fr
+  licenses:
+    - CC0-1.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: libb2
+  binname: libb2-devel
+  visiblename: libb2-devel
+  version: 0.98.1
+  origversion: 0.98.1_1
+  status: newest
+  summary: BLAKE2 cryptographic hash function - development files
+  maintainers:
+    - pierre.bourgin@free.fr
+  licenses:
+    - CC0-1.0
+- repo: wikidata
+  srcname: Q111509036
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: software library providing BLAKE2 family
+  licenses:
+    - Creative Commons CC0 License
+- repo: xrepo
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+  licenses:
+    - CC0-1.0
