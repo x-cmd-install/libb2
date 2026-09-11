@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.98.1"
   latestRelease: "v0.98.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:49:17Z
+  collectedAt: 2026-09-11T19:07:36Z
 timeline:
   created: 2015-10-14
   lastCommit: 2023-05-14
@@ -86,7 +86,7 @@ total:
   commit: 53
 ---
 path: /home/runner/.x-repo/github.com/BLAKE2/libb2
-collectedAt: 2026-09-11T05:49:18Z
+collectedAt: 2026-09-11T19:07:37Z
 loc:
   CHeader:
     code: 17612
