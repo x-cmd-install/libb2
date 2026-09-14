@@ -47,37 +47,18 @@ Total: **27,050** lines of code across **36** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-23 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-24 | 0 | 0 | 0 | 3 | 0 | 0 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [libb2-0.98.1.tar.gz](https://github.com/BLAKE2/libb2/releases/download/v0.98.1/libb2-0.98.1.tar.gz) | 522.4 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **139** distros on [repology.org](https://repology.org/project/libb2). **135** are ✅ on the latest upstream release, **2** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.98.1` | ✅ latest |
-| Debian 14 | `0.98.1` | ✅ latest |
-| Debian 13 | `0.98.1` | ✅ latest |
-| Ubuntu 26.04 LTS | `0.98.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.98.1` | ✅ latest |
-| Arch | `0.98.1` | ✅ latest |
-| Homebrew | `0.98.1` | ✅ latest |
-| Fedora rawhide | `0.98.1` | ✅ latest |
-| Nix unstable | `0.98.1` | ✅ latest |
-| Void | `0.98.1` | ✅ latest |
-| Alpine edge | `0.98.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.98.1` | ✅ latest |
 
 ## Improve this data
 
@@ -88,4 +69,4 @@ Install metadata for libb2 lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:54:18Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:10:19Z._
