@@ -4,7 +4,7 @@
 
 C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 
-[![x-cmd/install — libb2 Code Quality Monitoring Repo Card](https://repo.x-cmd.io/libb2.svg)](https://x-cmd.com/install/libb2)
+[![x-cmd/install — libb2 Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/libb2.svg)](https://x-cmd.com/install/libb2)
 
 ## Install
 
@@ -47,12 +47,12 @@ Total: **27,050** lines of code across **36** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-02 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-03 | 0 | 0 | 0 | 3 | 0 | 0 |
 
 ## Release assets
 
@@ -69,4 +69,4 @@ Install metadata for libb2 lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:13:43Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:12:35Z._
