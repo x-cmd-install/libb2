@@ -1,3 +1,31 @@
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: libb2
@@ -27,6 +55,20 @@
   origversion: null
   status: newest
   summary: Secure hashing function
+- repo: kali_rolling
+  subrepo: main
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - misc
 - repo: aerynos
   srcname: libb2
   visiblename: libb2
@@ -257,17 +299,6 @@
     - bribbers@disroot.org
   licenses:
     - CC0-1.0
-- repo: chimera
-  subrepo: main
-  srcname: libb2
-  binname: libb2-devel
-  visiblename: libb2-devel
-  version: 0.98.1
-  origversion: 0.98.1-r0
-  status: newest
-  summary: BLAKE2 hash library (development files)
-  licenses:
-    - CC0-1.0
 - repo: alpine_edge
   subrepo: community
   srcname: libb2
@@ -444,14 +475,17 @@
   summary: BLAKE2 hash library
   licenses:
     - CC0-1.0
-- repo: gnuguix
+- repo: chimera
+  subrepo: main
   srcname: libb2
-  binname: libb2
-  visiblename: libb2
+  binname: libb2-devel
+  visiblename: libb2-devel
   version: 0.98.1
-  origversion: null
+  origversion: 0.98.1-r0
   status: newest
-  summary: Library implementing the BLAKE2 family of hash functions
+  summary: BLAKE2 hash library (development files)
+  licenses:
+    - CC0-1.0
 - repo: chimera
   subrepo: main
   srcname: libb2
@@ -662,20 +696,6 @@
     - CC0
   categories:
     - Unspecified
-- repo: kali_rolling
-  subrepo: main
-  srcname: libb2
-  binnames:
-    - libb2-dev
-    - libb2-1
-  visiblename: libb2
-  version: 0.98.1
-  origversion: 0.98.1-1.1
-  status: newest
-  maintainers:
-    - rransom.8774@gmail.com
-  categories:
-    - misc
 - repo: epel_8
   srcname: libb2
   visiblename: libb2
@@ -849,6 +869,14 @@
     - CC0-1.0
   categories:
     - app-crypt
+- repo: gnuguix
+  srcname: libb2
+  binname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: Library implementing the BLAKE2 family of hash functions
 - repo: liguros_stable
   srcname: app-crypt/libb2
   visiblename: app-crypt/libb2
@@ -890,6 +918,20 @@
     - public-domain
   categories:
     - devel
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
 - repo: mageia_9
   subrepo: core/release
   srcname: libb2
@@ -1263,6 +1305,13 @@
     - CC0
   categories:
     - Development/C
+- repo: vcpkg
+  srcname: libb2
+  visiblename: libb2
+  version: 0.98.1
+  origversion: null
+  status: newest
+  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: libb2
@@ -1365,7 +1414,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: libb2
   binnames:
     - libb2-dev
@@ -1379,7 +1428,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: libb2
   binnames:
     - libb2-dev
@@ -1427,20 +1476,6 @@
     - bsiegert@netbsd.org
   categories:
     - security
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: libb2
-  binnames:
-    - libb2-dev
-    - libb2-1
-  visiblename: libb2
-  version: 0.98.1
-  origversion: 0.98.1-1.1
-  status: newest
-  maintainers:
-    - rransom.8774@gmail.com
-  categories:
-    - universe/misc
 - repo: pkgsrc_2026_3
   srcname: security/libb2
   binname: libb2
@@ -1513,34 +1548,6 @@
     - rransom.8774@gmail.com
   categories:
     - libs
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: libb2
-  binnames:
-    - libb2-dev
-    - libb2-1
-  visiblename: libb2
-  version: 0.98.1
-  origversion: 0.98.1-1.1
-  status: newest
-  maintainers:
-    - rransom.8774@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: libb2
-  binnames:
-    - libb2-dev
-    - libb2-1
-  visiblename: libb2
-  version: 0.98.1
-  origversion: 0.98.1-1.1
-  status: newest
-  maintainers:
-    - rransom.8774@gmail.com
-  categories:
-    - misc
 - repo: ravenports
   srcname: libb2
   binname: libb2
@@ -1655,6 +1662,20 @@
     - rransom.8774@gmail.com
   categories:
     - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: libb2
+  binnames:
+    - libb2-dev
+    - libb2-1
+  visiblename: libb2
+  version: 0.98.1
+  origversion: 0.98.1-1.1
+  status: newest
+  maintainers:
+    - rransom.8774@gmail.com
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: libb2
@@ -1725,27 +1746,6 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: libb2
-  binnames:
-    - libb2-dev
-    - libb2-1
-  visiblename: libb2
-  version: 0.98.1
-  origversion: 0.98.1-1.1build2
-  status: newest
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-- repo: vcpkg
-  srcname: libb2
-  visiblename: libb2
-  version: 0.98.1
-  origversion: null
-  status: newest
-  summary: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 - repo: void_x86_64
   subrepo: x86_64
   srcname: libb2
