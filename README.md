@@ -37,22 +37,22 @@ Total: **27,050** lines of code across **36** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 138 · **Forks**: 45 · **Open issues**: 25 · **Contributors**: 18
+- **Stars**: 138 · **Forks**: 45 · **Open issues**: 26 · **Contributors**: 18
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 17 · **Open PRs**: 4 · **Closed issues**: 9 · **Open issues**: 16 · **Commits**: 53
+- **Releases**: 2 · **Merged PRs**: 17 · **Open PRs**: 4 · **Closed issues**: 9 · **Open issues**: 17 · **Commits**: 53
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-17 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-05-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 360d | 2025-11-13 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last720d | 2024-11-18 | 0 | 0 | 0 | 3 | 1 | 0 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for libb2 lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:54:28Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:57:25Z._
